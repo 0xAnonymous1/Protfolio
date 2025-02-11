@@ -144,7 +144,7 @@ function App() {
           </motion.div>
         </motion.div>
       </nav>
-//hero section
+        {/* hero section */}
       <header id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80')] bg-cover bg-center opacity-10" />
         <motion.div 
