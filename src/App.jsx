@@ -144,7 +144,7 @@ function App() {
           </motion.div>
         </motion.div>
       </nav>
-
+//hero section
       <header id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80')] bg-cover bg-center opacity-10" />
         <motion.div 
@@ -177,9 +177,9 @@ function App() {
               className="flex justify-center gap-4"
             >
               {[
-                { href: "https://github.com", icon: <Github size={24} /> },
+                { href: "https://github.com/0xAnonymous1", icon: <Github size={24} /> },
                 { href: "https://linkedin.com", icon: <Linkedin size={24} /> },
-                { href: "mailto:contact@example.com", icon: <Mail size={24} /> }
+                { href: "thenorthboys.dev@gmail.com", icon: <Mail size={24} /> }
               ].map((social, index) => (
                 <motion.a
                   key={index}
@@ -295,7 +295,7 @@ function App() {
           >
             {[
               {
-                title: 'E-Commerce Platform',
+                title: 'Fatguess',
                 description: 'A full-featured online store built with React and Redux',
                 image: 'https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80',
                 tags: [
@@ -310,8 +310,8 @@ function App() {
                 ],
               },
               {
-                title: 'Task Management App',
-                description: 'Real-time collaborative task management application',
+                title: 'beuran',
+                description: 'fornt end using react',
                 image: 'https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&q=80',
                 tags: [
                   { icon: <LayoutGrid size={14} />, name: 'React' },
